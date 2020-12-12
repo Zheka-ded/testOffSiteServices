@@ -1,0 +1,34 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #fff;
+    padding: 21px;
+    margin-top: 14px;
+
+    &__privacy{
+        margin: 0px 10px 0px 14px;
+    }
+
+    &__designzzz{
+        margin: 0px;
+    }
+}
+
+
+@media screen and (max-width: 568px) {
+    .footer{
+
+        &__text{
+            margin: 8px 6px;
+        }
+
+        &__privacy{
+            margin: 8px 10px 8px 6px;
+        }
+    
+        &__designzzz{
+            margin: 8px 6px;
+        }
+    }
+}

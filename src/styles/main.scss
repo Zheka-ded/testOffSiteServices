@@ -1,0 +1,15 @@
+// reset css
+@import "./reset.scss";
+
+//  Global styles
+@import "./global.scss";
+
+// Fonts
+@import "./global-fonts.scss";
+
+// Blocks
+@import "./src/blocks/header/header.scss";
+@import "./src/blocks/bigimage/bigimage.scss";
+@import "./src/blocks/description/description.scss";
+@import "./src/blocks/greeting/greeting.scss";
+@import "./src/blocks/footer/footer.scss";
