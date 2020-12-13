@@ -81,22 +81,33 @@
                 font-weight: 500;
             }
 
+            &:focus + .header__nav-search-btn .shape-search{
+                fill: #25b117;
+                transition: 0.3s all ease;
+            }
+
         }
 
         &-search-btn{
             position: absolute;
-            background: url('../img/Shape.svg');
-            background-repeat: no-repeat;
+            background: transparent;
             border: none;
             width: 28px;
             height: 22px;
-            right: 12px;
+            right: 19px;
             top: 2px;
             outline: transparent;
         }
 
     }
 }
+
+
+.shape-search{
+    fill: #cdcdcd;
+    transition: 0.3s all ease;
+}
+
 
 @media screen and (max-width: 870px) {
 
